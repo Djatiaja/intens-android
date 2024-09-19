@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="59dp">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="@drawable/ilustration"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/usernameInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Username"
+        android:layout_marginTop="25dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emailInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="11dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/noTelpInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:hint="No telp"
+        android:layout_marginTop="11dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/jenisKelaminInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Jenis Kelamin"
+        android:layout_marginTop="11dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordInput"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:layout_marginTop="11dp"/>
+    
+    <android.widget.Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="Register"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginTop="31dp"/>
+
+
+
+
+
+</LinearLayout>
